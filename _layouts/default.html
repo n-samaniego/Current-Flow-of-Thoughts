@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/theme/assets/style.css">
 </head>
 <body>
-    <header>
-        <!-- Updated the homepage link to include site.baseurl -->
-        <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </header>
+    {% include header.html %}
     <main>
         {{ content }}
     </main>
