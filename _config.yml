@@ -16,4 +16,4 @@ defaults:
       layout: "post"  # Ensure posts use the correct layout
 
 # Optional but helpful: Adding a baseurl if your site is not hosted at the root
-# baseurl: "/your-site-subdirectory"
+
