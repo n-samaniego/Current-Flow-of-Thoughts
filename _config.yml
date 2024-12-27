@@ -1,4 +1,19 @@
-permalink: /:categories/:title/
 title: "Current Flow of Thoughts"
 author: "Niles"
+permalink: /:categories/:title/
 reverse: true
+
+# Pagination settings (Number of posts per page)
+paginate: 5  # Adjust this number based on how many posts you want per page
+paginate_path: "/page:num/"
+
+# Default settings for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"  # Ensure posts use the correct layout
+
+# Optional but helpful: Adding a baseurl if your site is not hosted at the root
+# baseurl: "/your-site-subdirectory"
