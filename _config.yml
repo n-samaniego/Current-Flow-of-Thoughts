@@ -1,6 +1,7 @@
 title: "Current Flow of Thoughts"
 author: "Niles"
-permalink: "/Current-Flow-of-Thoughts/:categories/:title/"
+baseurl: "/Current-Flow-of-Thoughts"
+permalink: "/blog/:title/"
 reverse: true
 
 # Pagination settings (Number of posts per page)
