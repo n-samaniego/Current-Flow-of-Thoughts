@@ -1,4 +1,5 @@
 permalink: /:categories/:title/
+theme: theme
 title: "Current Flow of Thoughts"
 author: "Niles"
 reverse: true
