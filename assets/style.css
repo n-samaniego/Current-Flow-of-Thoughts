@@ -3,26 +3,31 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f5f5dc;
+    background: #f5f5dc; /* Cream color */
     color: #333;
 }
+
 header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
+
 header a {
     color: #fff;
     text-decoration: none;
 }
+
 ul {
     list-style: none;
     padding: 0;
 }
+
 li {
     margin: 1rem 0;
 }
+
 .pagination {
     text-align: center;
     margin-top: 20px;
@@ -39,5 +44,20 @@ li {
 }
 
 .pagination-link:hover {
+    background-color: #e0e0d1; /* Slightly darker cream */
+}
+
+/* Styling for previous and next page links */
+.pagination a {
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #f5f5dc; /* Matching cream background */
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.pagination a:hover {
     background-color: #e0e0d1; /* Slightly darker cream */
 }
