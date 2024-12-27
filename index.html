@@ -6,19 +6,23 @@ title: Home
 <h2>Recent Posts</h2>
 
 <ul>
-    {% for post in paginator.posts reversed %}
-    <li>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        <small>{{ post.date | date: "%B %d, %Y" }}</small>
-    </li>
-    {% endfor %}
+    {% if paginator.posts.size == 0 %}
+        <p>No posts available.</p>
+    {% else %}
+        {% for post in paginator.posts reversed %}
+        <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            <small>{{ post.date | date: "%B %d, %Y" }}</small>
+        </li>
+        {% endfor %}
+    {% endif %}
 </ul>
 
 <div class="pagination">
     {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}">Previous</a>
+        <a href="{{ paginator.previous_page_path }}" class="pagination-link">Previous</a>
     {% endif %}
     {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}">Next</a>
+        <a href="{{ paginator.next_page_path }}" class="pagination-link">Next</a>
     {% endif %}
 </div>
