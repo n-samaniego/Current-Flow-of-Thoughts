@@ -1,6 +1,6 @@
 title: "Current Flow of Thoughts"
 author: "Niles"
-permalink: /:categories/:title/
+permalink: "{{ site.baseurl }}/:categories/:title/"
 reverse: true
 
 # Pagination settings (Number of posts per page)
@@ -16,4 +16,5 @@ defaults:
       layout: "post"  # Ensure posts use the correct layout
 
 # Optional but helpful: Adding a baseurl if your site is not hosted at the root
+baseurl: "/Current-Flow-of-Thoughts"
 
