@@ -9,7 +9,7 @@ title: Home
     {% if paginator.posts.size == 0 %}
         <p>No posts available.</p>
     {% else %}
-        {% for post in paginator.posts reversed %}
+        {% for post in paginator.posts | sort "date" | sort "title" | reverse %}
         <li class="post-list-item">
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             <small>{{ post.date | date: "%B %d, %Y" }}</small>
