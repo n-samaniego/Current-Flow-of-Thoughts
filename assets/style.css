@@ -154,3 +154,24 @@ li {
 html {
     scroll-behavior: smooth;
 }
+
+* {
+    box-sizing: border-box;  /* Ensures padding and borders do not overflow elements */
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;  /* Prevents horizontal scrolling */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px; /* Add small horizontal padding */
+}
+
