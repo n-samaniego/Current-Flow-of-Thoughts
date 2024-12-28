@@ -10,15 +10,16 @@ title: My Blog
         <p>No posts available.</p>
     {% else %}
         {% for post in paginator.posts | sort "date" | sort "title" | reverse %}
-        <li class="post-list-item">
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <small>{{ post.date | date: "%B %d, %Y" }}</small>
-            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-        </li>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="post-link">
+            <li class="post-list-item">
+                <h3 class="post-title">{{ post.title }}</h3>
+                <small class="post-date">{{ post.date | date: "%B %d, %Y" }}</small>
+                <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            </li>
+        </a>
         {% endfor %}
     {% endif %}
 </ul>
-
 
 <div class="pagination">
     {% if paginator.previous_page %}
