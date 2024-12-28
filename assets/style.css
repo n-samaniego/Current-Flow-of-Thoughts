@@ -114,8 +114,8 @@ li {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #210606;  /* Your chosen color */
-    color: #fff;  /* White text */
+    background-color: #111511;  /* Your chosen color */
+    color: #d7be69;  /* gold text */
     border: none;
     border-radius: 8px;
     font-size: 1rem;
@@ -127,12 +127,12 @@ li {
 }
 
 .button:hover {
-    background-color: #130404;  /* Brighter red for more contrast */
+    background-color: #210606;  /* Brighter red for more contrast */
 }
 
 /* Button Focus Styles for Accessibility */
 .button:focus {
-    outline: 3px solid #d7be69; /* Highlight button focus */
+    outline: 3px solid #fff; /* Highlight button focus */
 }
 
 /* Smooth Scrolling for anchor links */
