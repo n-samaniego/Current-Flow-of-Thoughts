@@ -8,7 +8,7 @@ categories: blog
 
   This here was a long process, and the seed was planted a last year when I finally got my first PC. Over the summer of 2024, I got my first job as an Electronics Repair Technician, and with the first paycheck I made, I bought myself a used gaming PC so I could finally **GAMEEE**! This started my foray into the world of PC's, and eventually, around September of this year, I started thinking about servers and hosting a couple services for myself. After buying another used PC, I decided to make a NAS (network attached storage), a small backup system for my notes, and also self host a website. Homelabs for the win! I'll get into the NAS and my server stuff as a whole in a different post, but for now, the main point was I wanted a website for myself.
 
-  Now, let me come clean about something. I don't know how to code. Scandalous, I know! I have taken classes which have taught me to use C, C++, and Java, and I learned to code a microcontroller for a lab last year, but man, coding is not my favorite thing to do. 
+  Now, let me come clean about something. I don't know how to code. Scandalous, I know! I have taken classes which have taught me to use C, C++, and Java, and I learned to code a microcontroller for a lab last year, but man, coding is just not my favorite thing to do. 
 
   And so, because of my dislike for coding, I feel like I've been missing out. I'm starting to learn C, with a little (a lot) of help from the web over my Winter Break because I understand how important it is. Also, making this website definitely required me to learn a bit about some coding languages (html and css), and a bit about my worst enemy.
 
