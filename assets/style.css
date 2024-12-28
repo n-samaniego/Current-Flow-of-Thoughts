@@ -33,7 +33,7 @@ a:hover {
 
 /* Main Container for Posts */
 main {
-    max-width: 1000px;  /* Slightly narrower for better focus */
+    max-width: 1500px;  /* Slightly narrower for better focus */
     margin: 2rem auto;  /* Center vertically and horizontally */
     padding: 2rem;
     width: 95%;  /* Slight margin from window edges */
