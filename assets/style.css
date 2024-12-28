@@ -20,6 +20,7 @@ header {
     color: #d7be69;
     padding: 1rem 0;
     text-align: center;
+    font-size: 1.25rem;  /* Set header font size to 1.25rem */
 }
 
 /* Headings and Links */
@@ -137,7 +138,7 @@ li {
     color: #d7be69;  /* Gold text */
     border: none;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 1.25rem;  /* Set button font size to 1.25rem */
     font-weight: bold;
     text-align: center;
     text-decoration: none;
