@@ -57,7 +57,7 @@ li {
     border: 1px solid #444;  /* Darker border to blend with theme */
     border-radius: 12px;  /* Rounded corners */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* More pronounced shadow */
-    background-color: #1a1a1a;  /* Dark gray background for posts */
+    background-color: #111511;  /* Green background for posts, matches the header */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
