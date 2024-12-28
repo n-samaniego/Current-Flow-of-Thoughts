@@ -3,8 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #111511;
+    background: #210606;
     color: #d7be69;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #d7be69; /* Title color */
 }
 
 header {
@@ -14,9 +18,13 @@ header {
     text-align: center;
 }
 
-header a {
-    color: #fff;
+a {
+    color: #d7be69;
     text-decoration: none;
+}
+
+a:hover {
+    color: #bda356; /* Slightly darker hover effect */
 }
 
 main {
