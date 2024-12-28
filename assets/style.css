@@ -11,6 +11,7 @@ html, body {
 
 body {
     width: 100%;
+    font-size: 1.125rem;  /* Increased font size for better readability */
 }
 
 /* Header Styling */
@@ -27,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Times New Roman', Times, serif; /* Ensure headings also use the same font */
 }
 
+/* Links */
 a {
     color: #d7be69;
     text-decoration: none;
