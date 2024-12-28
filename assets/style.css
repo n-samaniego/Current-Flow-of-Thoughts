@@ -1,21 +1,24 @@
+/* Global Reset */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #130404;
-    color: #d7be69;
+    background: #130404;  /* Dark background */
+    color: #d7be69;  /* Text and general color */
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #d7be69; /* Title color */
-}
-
+/* Header Styling */
 header {
     background: #111511;
     color: #d7be69;
     padding: 1rem 0;
     text-align: center;
+}
+
+/* Headings and Links */
+h1, h2, h3, h4, h5, h6 {
+    color: #d7be69;
 }
 
 a {
@@ -24,90 +27,84 @@ a {
 }
 
 a:hover {
-    color: #bda356; /* Slightly darker hover effect */
+    color: #bda356; /* Slightly darker on hover */
 }
 
+/* Main Container for Posts */
 main {
-    max-width: 1200px;  /* Limit the width of the main content */
-    margin: 0 auto;    /* Center the content horizontally */
-    padding: 1rem;     /* Add padding inside the main container */
-    width: 100%;
+    max-width: 1000px;  /* Slightly narrower for better focus */
+    margin: 2rem auto;  /* Center vertically and horizontally */
+    padding: 2rem;
+    width: 95%;  /* Slight margin from window edges */
 }
 
+/* Unordered List Styling */
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
+/* List Item - Post Styling */
 li {
-    margin: 1rem 0;
+    margin: 2rem 0;  /* More space between posts */
 }
 
-.pagination {
-    text-align: center;
-    margin-top: 20px;
+/* Individual Post Item */
+.post-list-item {
+    padding: 1.5rem;
+    border: 1px solid #444;  /* Darker border to blend with theme */
+    border-radius: 12px;  /* Rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* More pronounced shadow */
+    background-color: #1a1a1a;  /* Dark gray background for posts */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.pagination-link {
-    margin: 0 10px;
-    padding: 5px 10px;
-    background-color: #f5f5dc; /* Cream background */
-    border: 1px solid #ccc;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+/* Hover Effect */
+.post-list-item:hover {
+    transform: translateY(-8px);  /* Slight lift */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
-.pagination-link:hover {
-    background-color: #e0e0d1; /* Slightly darker cream */
-}
-
-/* Styling for previous and next page links */
-.pagination a {
-    margin: 0 10px;
-    padding: 5px 10px;
-    background-color: #f5f5dc; /* Matching cream background */
-    border: 1px solid #ccc;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.pagination a:hover {
-    background-color: #e0e0d1; /* Slightly darker cream */
-}
-
+/* Post Title */
 .post-title {
     display: block;
-    font-size: 1.5rem;
-    margin: 0; /* Remove margin to keep it close to date */
+    font-size: 1.8rem;  /* Larger for emphasis */
+    margin-bottom: 0.5rem;
 }
 
+/* Post Date */
 .post-date {
     display: block;
-    margin: 0.2rem 0 0.5rem; /* Small gap below the date */
-    font-size: 0.9rem;
-    color: #666; /* Slightly lighter color for the date */
+    margin: 0.3rem 0 1rem;
+    font-size: 1rem;
+    color: #b4a07a;  /* Muted tone for subtlety */
 }
 
+/* Post Excerpt */
 .post-excerpt {
-    margin: 0.5rem 0 0; /* Reduced space between date and excerpt */
-    line-height: 1.4;
-    color: #444;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+    color: #d7be69;  /* Match overall theme */
 }
 
-.post-list-item {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    border: 1px solid #ddd;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for floating effect */
-    background-color: #fff; /* White background for posts */
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth hover effect */
+/* Pagination Styling */
+.pagination {
+    text-align: center;
+    margin-top: 3rem;
 }
 
-.post-list-item:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+.pagination-link, .pagination a {
+    margin: 0 8px;
+    padding: 6px 12px;
+    background-color: #1a1a1a;
+    border: 1px solid #444;
+    color: #d7be69;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagination-link:hover, .pagination a:hover {
+    background-color: #2c2c2c;
 }
