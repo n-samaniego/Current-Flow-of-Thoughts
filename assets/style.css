@@ -97,10 +97,17 @@ li {
     color: #444;
 }
 
-
 .post-list-item {
-    margin-bottom: 2rem;  /* Increased space between posts */
-    padding-bottom: 1rem; /* Optional: adds inner spacing for each post */
-    border-bottom: 1px solid #ddd; /* Light separator between posts */
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for floating effect */
+    background-color: #fff; /* White background for posts */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth hover effect */
 }
 
+.post-list-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
