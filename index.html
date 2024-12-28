@@ -13,7 +13,6 @@ title: Home
         <li>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             <small>{{ post.date | date: "%B %d, %Y" }}</small>
-
             <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
         </li>
         {% endfor %}
