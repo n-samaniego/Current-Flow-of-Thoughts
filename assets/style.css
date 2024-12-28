@@ -44,7 +44,7 @@ main {
     max-width: 100%;  /* Remove fixed width limit to ensure it stays within the viewport */
     margin: 2rem auto;  /* Center vertically and horizontally */
     padding: 2rem;
-    width: 95%;  /* Slight margin from window edges */
+    width: 85%;  /* Slight margin from window edges */
 }
 
 /* Unordered List Styling */
