@@ -3,13 +3,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f5f5dc; /* Cream color */
-    color: #333;
+    background: #210606
+    color: #d7be69;
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #111511;
+    color: #d7be69;
     padding: 1rem 0;
     text-align: center;
 }
