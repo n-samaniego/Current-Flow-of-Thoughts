@@ -20,7 +20,7 @@ header a {
 }
 
 main {
-    max-width: 1500px;  /* Limit the width of the main content */
+    max-width: 800px;  /* Limit the width of the main content */
     margin: 0 auto;    /* Center the content horizontally */
     padding: 1rem;     /* Add padding inside the main container */
 }
