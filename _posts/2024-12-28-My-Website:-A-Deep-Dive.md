@@ -28,5 +28,5 @@ I'll probably make another post about just how much I appreciate having ChatGPT.
 
 Now we're here! I love the way my site looks, and I love the features I've implemented. It'll change, I'll make it better and probably break it a few times, but it feels... good. It feels so nice to just write and have somewhere to post and have it all just *work*. 
 
-signing off for now! -Niles
+Signing off for now! -Niles
 
