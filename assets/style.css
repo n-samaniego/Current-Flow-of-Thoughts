@@ -1,11 +1,16 @@
 /* Global Reset */
-body {
+html, body {
     font-family: 'Times New Roman', Times, serif;  /* Added fallback font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
     background: #130404;  /* Dark background */
     color: #d7be69;  /* Text and general color */
+    overflow-x: hidden;  /* Prevent horizontal scroll */
+}
+
+body {
+    width: 100%;
 }
 
 /* Header Styling */
@@ -33,7 +38,7 @@ a:hover {
 
 /* Main Container for Posts */
 main {
-    max-width: 1500px;  /* Slightly narrower for better focus */
+    max-width: 100%;  /* Remove fixed width limit to ensure it stays within the viewport */
     margin: 2rem auto;  /* Center vertically and horizontally */
     padding: 2rem;
     width: 95%;  /* Slight margin from window edges */
