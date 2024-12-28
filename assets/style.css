@@ -61,3 +61,10 @@ li {
 .pagination a:hover {
     background-color: #e0e0d1; /* Slightly darker cream */
 }
+
+.post-list-item {
+    margin-bottom: 2rem;  /* Increased space between posts */
+    padding-bottom: 1rem; /* Optional: adds inner spacing for each post */
+    border-bottom: 1px solid #ddd; /* Light separator between posts */
+}
+
