@@ -1,6 +1,6 @@
 /* Global Reset */
 body {
-    font-family: Georgia, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -19,6 +19,7 @@ header {
 /* Headings and Links */
 h1, h2, h3, h4, h5, h6 {
     color: #d7be69;
+    font-family: 'Times New Roman', Times, serif; /* Ensure headings also use the same font */
 }
 
 a {
