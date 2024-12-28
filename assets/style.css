@@ -59,12 +59,24 @@ li {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* More pronounced shadow */
     background-color: #111511;  /* Green background for posts, matches the header */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 /* Hover Effect */
 .post-list-item:hover {
     transform: translateY(-8px);  /* Slight lift */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Make entire post clickable */
+.post-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-link:hover .post-list-item {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
 }
 
 /* Post Title */
@@ -130,12 +142,10 @@ li {
     background-color: #210606;  /* Brighter red for more contrast */
 }
 
-/* Button Focus Styles for Accessibility */
 .button:focus {
-    outline: 3px solid #fff; /* Highlight button focus */
+    outline: 3px solid #fff;
 }
 
-/* Smooth Scrolling for anchor links */
 html {
     scroll-behavior: smooth;
 }
