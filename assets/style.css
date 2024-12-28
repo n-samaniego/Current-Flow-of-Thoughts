@@ -7,7 +7,7 @@ html, body {
     background: #130404;  /* Dark background */
     color: #d7be69;  /* Text and general color */
     overflow-x: hidden;  /* Prevent horizontal scroll */
-    font-size: 14px;  /* Adjust this value to make body text larger */
+    font-size: 20px;  /* Adjust this value to make body text larger */
 }
 
 body {
